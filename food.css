@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f7f3ee;
+}
+
+.topbar {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #111, #8b0000);
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 40px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
